@@ -18,8 +18,8 @@ import net.minecraft.client.renderer.GameRenderer;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.alchemy.Potion;
-import net.minecraftforge.client.gui.overlay.ForgeGui;
-import net.minecraftforge.common.util.LazyOptional;
+import net.neoforged.client.gui.overlay.ForgeGui;
+import net.neoforged.common.util.LazyOptional;
 
 public class HudOilUses
 {

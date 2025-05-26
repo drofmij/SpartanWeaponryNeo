@@ -3,7 +3,7 @@ package com.oblivioussp.spartanweaponry.api.tags;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.entity.EntityType;
-import net.minecraftforge.registries.ForgeRegistries;
+import net.neoforged.registries.ForgeRegistries;
 
 /**
  * This class contains all the different entity type tags used by Spartan Weaponry. 

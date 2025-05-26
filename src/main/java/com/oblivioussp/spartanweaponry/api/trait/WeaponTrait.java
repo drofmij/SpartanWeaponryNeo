@@ -14,7 +14,7 @@ import net.minecraft.network.chat.ComponentUtils;
 import net.minecraft.network.chat.MutableComponent;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.enchantment.Enchantment;
-import net.minecraftforge.common.ToolAction;
+import net.neoforged.common.ToolAction;
 
 /**
  * Base Weapon Trait class. Extend this class or other classes to implement your own Weapon Trait for any weapon.

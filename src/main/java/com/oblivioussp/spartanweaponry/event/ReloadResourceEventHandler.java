@@ -6,10 +6,10 @@ import com.oblivioussp.spartanweaponry.api.IReloadable;
 import com.oblivioussp.spartanweaponry.api.ReloadableHandler;
 import com.oblivioussp.spartanweaponry.util.Log;
 
-import net.minecraftforge.event.TagsUpdatedEvent;
-import net.minecraftforge.eventbus.api.EventPriority;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
+import net.neoforged.event.TagsUpdatedEvent;
+import net.neoforged.eventbus.api.EventPriority;
+import net.neoforged.eventbus.api.SubscribeEvent;
+import net.neoforged.fml.common.Mod.EventBusSubscriber;
 
 @EventBusSubscriber(bus = EventBusSubscriber.Bus.FORGE)
 public class ReloadResourceEventHandler

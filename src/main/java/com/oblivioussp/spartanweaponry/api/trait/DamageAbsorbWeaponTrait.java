@@ -36,7 +36,7 @@ public class DamageAbsorbWeaponTrait extends MeleeCallbackWeaponTrait
 			heldItemVictim.hurtAndBreak(Mth.floor(baseDamage * magnitude), victim, (victimEntity) -> {
 				victimEntity.broadcastBreakEvent(InteractionHand.MAIN_HAND);
 				if(victimEntity instanceof Player)
-					net.minecraftforge.event.ForgeEventFactory.onPlayerDestroyItem((Player)victimEntity, heldItemVictim, InteractionHand.MAIN_HAND);
+					net.neoforged.event.ForgeEventFactory.onPlayerDestroyItem((Player)victimEntity, heldItemVictim, InteractionHand.MAIN_HAND);
 			});
 			return baseDamage * (1.0f - magnitude);
 		}

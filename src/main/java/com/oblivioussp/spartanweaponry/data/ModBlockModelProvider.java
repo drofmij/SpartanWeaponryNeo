@@ -5,11 +5,11 @@ import com.oblivioussp.spartanweaponry.init.ModBlocks;
 
 import net.minecraft.data.PackOutput;
 import net.minecraft.world.level.block.Block;
-import net.minecraftforge.client.model.generators.BlockStateProvider;
-import net.minecraftforge.client.model.generators.ConfiguredModel;
-import net.minecraftforge.client.model.generators.ModelFile.ExistingModelFile;
-import net.minecraftforge.common.data.ExistingFileHelper;
-import net.minecraftforge.registries.ForgeRegistries;
+import net.neoforged.client.model.generators.BlockStateProvider;
+import net.neoforged.client.model.generators.ConfiguredModel;
+import net.neoforged.client.model.generators.ModelFile.ExistingModelFile;
+import net.neoforged.common.data.ExistingFileHelper;
+import net.neoforged.registries.ForgeRegistries;
 
 public class ModBlockModelProvider extends BlockStateProvider
 {

@@ -10,8 +10,8 @@ import com.oblivioussp.spartanweaponry.api.tags.ModBlockTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.world.level.block.Blocks;
-import net.minecraftforge.common.data.BlockTagsProvider;
-import net.minecraftforge.common.data.ExistingFileHelper;
+import net.neoforged.common.data.BlockTagsProvider;
+import net.neoforged.common.data.ExistingFileHelper;
 
 public class ModBlockTagsProvider extends BlockTagsProvider
 {

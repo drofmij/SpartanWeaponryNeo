@@ -12,11 +12,11 @@ import com.oblivioussp.spartanweaponry.init.ModItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
-import net.minecraftforge.client.model.generators.ItemModelBuilder;
-import net.minecraftforge.client.model.generators.ItemModelProvider;
-import net.minecraftforge.client.model.generators.ModelFile.ExistingModelFile;
-import net.minecraftforge.common.data.ExistingFileHelper;
-import net.minecraftforge.registries.ForgeRegistries;
+import net.neoforged.client.model.generators.ItemModelBuilder;
+import net.neoforged.client.model.generators.ItemModelProvider;
+import net.neoforged.client.model.generators.ModelFile.ExistingModelFile;
+import net.neoforged.common.data.ExistingFileHelper;
+import net.neoforged.registries.ForgeRegistries;
 
 public class ModItemModelProvider extends ItemModelProvider
 {

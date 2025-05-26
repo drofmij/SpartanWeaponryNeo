@@ -14,9 +14,9 @@ import com.oblivioussp.spartanweaponry.util.OilHelper;
 import mezz.jei.api.recipe.vanilla.IJeiBrewingRecipe;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.ItemStack;
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.registries.ForgeRegistry;
-import net.minecraftforge.registries.RegistryManager;
+import net.neoforged.registries.ForgeRegistries;
+import net.neoforged.registries.ForgeRegistry;
+import net.neoforged.registries.RegistryManager;
 
 public class JeiOilBrewingRecipe implements IJeiBrewingRecipe 
 {

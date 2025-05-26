@@ -26,9 +26,9 @@ import net.minecraft.world.entity.ai.attributes.AttributeModifier.Operation;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.alchemy.Potion;
 import net.minecraft.world.item.alchemy.PotionUtils;
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.registries.ForgeRegistry;
-import net.minecraftforge.registries.RegistryManager;
+import net.neoforged.registries.ForgeRegistries;
+import net.neoforged.registries.ForgeRegistry;
+import net.neoforged.registries.RegistryManager;
 
 public class OilHelper
 {

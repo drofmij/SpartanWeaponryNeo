@@ -33,10 +33,10 @@ import net.minecraft.world.item.Items;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.enchantment.Enchantments;
 import net.minecraft.world.level.Level;
-import net.minecraftforge.event.ForgeEventFactory;
-import net.minecraftforge.fml.loading.FMLEnvironment;
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.registries.tags.ITagManager;
+import net.neoforged.event.ForgeEventFactory;
+import net.neoforged.fml.loading.FMLEnvironment;
+import net.neoforged.registries.ForgeRegistries;
+import net.neoforged.registries.tags.ITagManager;
 
 public class LongbowItem extends BowItem implements IReloadable/*implements IHudQuiverDisplay*/
 {

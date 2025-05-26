@@ -13,7 +13,7 @@ import net.minecraft.core.HolderLookup.Provider;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.DamageTypeTagsProvider;
 import net.minecraft.tags.DamageTypeTags;
-import net.minecraftforge.common.data.ExistingFileHelper;
+import net.neoforged.common.data.ExistingFileHelper;
 
 public class ModDamageTypeTagsProvider extends DamageTypeTagsProvider
 {

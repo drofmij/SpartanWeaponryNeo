@@ -18,8 +18,8 @@ import net.minecraft.world.entity.monster.Zombie;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.registries.tags.ITag;
+import net.neoforged.registries.ForgeRegistries;
+import net.neoforged.registries.tags.ITag;
 
 @Mixin(Zombie.class)
 public class ZombieMixin extends MobMixin 

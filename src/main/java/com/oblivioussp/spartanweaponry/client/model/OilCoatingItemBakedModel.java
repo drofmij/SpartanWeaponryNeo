@@ -16,11 +16,11 @@ import net.minecraft.client.renderer.block.model.ItemTransforms;
 import net.minecraft.client.renderer.texture.TextureAtlasSprite;
 import net.minecraft.client.resources.model.BakedModel;
 import net.minecraft.world.item.ItemStack;
-import net.minecraftforge.client.RenderTypeGroup;
-import net.minecraftforge.client.model.CompositeModel;
-import net.minecraftforge.client.model.IModelBuilder;
-import net.minecraftforge.client.model.geometry.IGeometryBakingContext;
-import net.minecraftforge.common.util.LazyOptional;
+import net.neoforged.client.RenderTypeGroup;
+import net.neoforged.client.model.CompositeModel;
+import net.neoforged.client.model.IModelBuilder;
+import net.neoforged.client.model.geometry.IGeometryBakingContext;
+import net.neoforged.common.util.LazyOptional;
 
 public class OilCoatingItemBakedModel extends CompositeModel.Baked
 {

@@ -3,7 +3,7 @@ package com.oblivioussp.spartanweaponry.effect;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.effect.MobEffectCategory;
-import net.minecraftforge.registries.ForgeRegistries;
+import net.neoforged.registries.ForgeRegistries;
 
 public class BasicMobEffect extends MobEffect 
 {

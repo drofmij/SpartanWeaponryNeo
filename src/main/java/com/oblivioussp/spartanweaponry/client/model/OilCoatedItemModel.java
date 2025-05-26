@@ -27,14 +27,14 @@ import net.minecraft.client.resources.model.Material;
 import net.minecraft.client.resources.model.ModelBaker;
 import net.minecraft.client.resources.model.ModelState;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraftforge.client.ForgeRenderTypes;
-import net.minecraftforge.client.RenderTypeGroup;
-import net.minecraftforge.client.model.ForgeFaceData;
-import net.minecraftforge.client.model.ItemLayerModel;
-import net.minecraftforge.client.model.geometry.IGeometryBakingContext;
-import net.minecraftforge.client.model.geometry.IGeometryLoader;
-import net.minecraftforge.client.model.geometry.IUnbakedGeometry;
-import net.minecraftforge.client.model.geometry.UnbakedGeometryHelper;
+import net.neoforged.client.ForgeRenderTypes;
+import net.neoforged.client.RenderTypeGroup;
+import net.neoforged.client.model.ForgeFaceData;
+import net.neoforged.client.model.ItemLayerModel;
+import net.neoforged.client.model.geometry.IGeometryBakingContext;
+import net.neoforged.client.model.geometry.IGeometryLoader;
+import net.neoforged.client.model.geometry.IUnbakedGeometry;
+import net.neoforged.client.model.geometry.UnbakedGeometryHelper;
 
 /** Copy of Forge's {@linkplain ItemLayerModel} with the addition of a coating layer for use with items that can be oiled
  * 

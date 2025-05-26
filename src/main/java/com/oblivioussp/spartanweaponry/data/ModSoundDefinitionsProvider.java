@@ -5,11 +5,11 @@ import com.oblivioussp.spartanweaponry.init.ModSounds;
 
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraftforge.common.data.ExistingFileHelper;
-import net.minecraftforge.common.data.SoundDefinition;
-import net.minecraftforge.common.data.SoundDefinition.Sound;
-import net.minecraftforge.common.data.SoundDefinition.SoundType;
-import net.minecraftforge.common.data.SoundDefinitionsProvider;
+import net.neoforged.common.data.ExistingFileHelper;
+import net.neoforged.common.data.SoundDefinition;
+import net.neoforged.common.data.SoundDefinition.Sound;
+import net.neoforged.common.data.SoundDefinition.SoundType;
+import net.neoforged.common.data.SoundDefinitionsProvider;
 
 public class ModSoundDefinitionsProvider extends SoundDefinitionsProvider 
 {

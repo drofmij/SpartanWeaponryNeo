@@ -16,9 +16,9 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.alchemy.Potion;
 import net.minecraft.world.item.alchemy.PotionUtils;
 import net.minecraft.world.level.Level;
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.registries.IForgeRegistry;
-import net.minecraftforge.registries.RegistryManager;
+import net.neoforged.registries.ForgeRegistries;
+import net.neoforged.registries.IForgeRegistry;
+import net.neoforged.registries.RegistryManager;
 
 public class OilHandler implements IOilHandler
 {

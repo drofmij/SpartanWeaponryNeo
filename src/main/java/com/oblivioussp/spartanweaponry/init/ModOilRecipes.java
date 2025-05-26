@@ -6,7 +6,7 @@ import com.oblivioussp.spartanweaponry.item.crafting.PotionToOilBrewingRecipe;
 
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraftforge.common.brewing.BrewingRecipeRegistry;
+import net.neoforged.common.brewing.BrewingRecipeRegistry;
 
 public class ModOilRecipes
 {

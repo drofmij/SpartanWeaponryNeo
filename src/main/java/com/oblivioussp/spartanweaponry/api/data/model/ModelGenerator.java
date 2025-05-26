@@ -5,9 +5,9 @@ import com.oblivioussp.spartanweaponry.api.data.OilCoatingTextures;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
-import net.minecraftforge.client.model.generators.ItemModelProvider;
-import net.minecraftforge.client.model.generators.ModelFile.ExistingModelFile;
-import net.minecraftforge.registries.ForgeRegistries;
+import net.neoforged.client.model.generators.ItemModelProvider;
+import net.neoforged.client.model.generators.ModelFile.ExistingModelFile;
+import net.neoforged.registries.ForgeRegistries;
 
 /**
  * Contains helper methods to generate customised model files based off items from Spartan Weaponry.<br>

@@ -3,8 +3,8 @@ package com.oblivioussp.spartanweaponry.inventory;
 import java.util.function.Predicate;
 
 import net.minecraft.world.item.ItemStack;
-import net.minecraftforge.items.IItemHandler;
-import net.minecraftforge.items.SlotItemHandler;
+import net.neoforged.items.IItemHandler;
+import net.neoforged.items.SlotItemHandler;
 
 public class SlotFiltered extends SlotItemHandler
 {

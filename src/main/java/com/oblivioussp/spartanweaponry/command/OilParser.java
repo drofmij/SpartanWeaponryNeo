@@ -19,9 +19,9 @@ import com.oblivioussp.spartanweaponry.api.oil.OilEffect;
 import net.minecraft.commands.SharedSuggestionProvider;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraftforge.registries.ForgeRegistry;
-import net.minecraftforge.registries.IForgeRegistry;
-import net.minecraftforge.registries.RegistryManager;
+import net.neoforged.registries.ForgeRegistry;
+import net.neoforged.registries.IForgeRegistry;
+import net.neoforged.registries.RegistryManager;
 
 public class OilParser 
 {

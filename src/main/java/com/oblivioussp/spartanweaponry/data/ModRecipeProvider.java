@@ -45,9 +45,9 @@ import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.RecipeSerializer;
 import net.minecraft.world.level.ItemLike;
-import net.minecraftforge.common.crafting.conditions.NotCondition;
-import net.minecraftforge.common.crafting.conditions.TagEmptyCondition;
-import net.minecraftforge.registries.ForgeRegistries;
+import net.neoforged.common.crafting.conditions.NotCondition;
+import net.neoforged.common.crafting.conditions.TagEmptyCondition;
+import net.neoforged.registries.ForgeRegistries;
 
 public class ModRecipeProvider extends RecipeProvider
 {

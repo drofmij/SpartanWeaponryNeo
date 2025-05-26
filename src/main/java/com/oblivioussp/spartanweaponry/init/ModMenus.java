@@ -5,10 +5,10 @@ import com.oblivioussp.spartanweaponry.inventory.QuiverArrowMenu;
 import com.oblivioussp.spartanweaponry.inventory.QuiverBoltMenu;
 
 import net.minecraft.world.inventory.MenuType;
-import net.minecraftforge.common.extensions.IForgeMenuType;
-import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.registries.RegistryObject;
+import net.neoforged.common.extensions.IForgeMenuType;
+import net.neoforged.registries.DeferredRegister;
+import net.neoforged.registries.ForgeRegistries;
+import net.neoforged.registries.RegistryObject;
 
 public class ModMenus 
 {

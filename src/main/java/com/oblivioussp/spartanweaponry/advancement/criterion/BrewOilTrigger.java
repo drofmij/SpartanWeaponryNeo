@@ -16,7 +16,7 @@ import net.minecraft.advancements.critereon.SimpleCriterionTrigger;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.util.GsonHelper;
-import net.minecraftforge.registries.RegistryManager;
+import net.neoforged.registries.RegistryManager;
 
 public class BrewOilTrigger extends SimpleCriterionTrigger<BrewOilTrigger.TriggerInstance> 
 {

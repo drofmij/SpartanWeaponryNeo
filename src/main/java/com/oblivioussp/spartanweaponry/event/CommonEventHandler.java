@@ -68,21 +68,21 @@ import net.minecraft.world.level.storage.loot.LootPool;
 import net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer;
 import net.minecraft.world.level.storage.loot.entries.LootTableReference;
 import net.minecraft.world.level.storage.loot.providers.number.UniformGenerator;
-import net.minecraftforge.common.Tags;
-import net.minecraftforge.event.AnvilUpdateEvent;
-import net.minecraftforge.event.LootTableLoadEvent;
-import net.minecraftforge.event.brewing.PlayerBrewedPotionEvent;
-import net.minecraftforge.event.entity.EntityTeleportEvent;
-import net.minecraftforge.event.entity.living.LivingAttackEvent;
-import net.minecraftforge.event.entity.living.LivingEquipmentChangeEvent;
-import net.minecraftforge.event.entity.living.LivingHurtEvent;
-import net.minecraftforge.event.entity.living.LootingLevelEvent;
-import net.minecraftforge.event.entity.player.EntityItemPickupEvent;
-import net.minecraftforge.event.entity.player.PlayerInteractEvent;
-import net.minecraftforge.event.village.VillagerTradesEvent;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.registries.ForgeRegistries;
+import net.neoforged.common.Tags;
+import net.neoforged.event.AnvilUpdateEvent;
+import net.neoforged.event.LootTableLoadEvent;
+import net.neoforged.event.brewing.PlayerBrewedPotionEvent;
+import net.neoforged.event.entity.EntityTeleportEvent;
+import net.neoforged.event.entity.living.LivingAttackEvent;
+import net.neoforged.event.entity.living.LivingEquipmentChangeEvent;
+import net.neoforged.event.entity.living.LivingHurtEvent;
+import net.neoforged.event.entity.living.LootingLevelEvent;
+import net.neoforged.event.entity.player.EntityItemPickupEvent;
+import net.neoforged.event.entity.player.PlayerInteractEvent;
+import net.neoforged.event.village.VillagerTradesEvent;
+import net.neoforged.eventbus.api.SubscribeEvent;
+import net.neoforged.fml.common.Mod;
+import net.neoforged.registries.ForgeRegistries;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.FORGE)
 public class CommonEventHandler

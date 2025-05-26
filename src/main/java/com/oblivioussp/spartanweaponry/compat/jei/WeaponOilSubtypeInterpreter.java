@@ -13,8 +13,8 @@ import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.alchemy.Potion;
 import net.minecraft.world.item.alchemy.PotionUtils;
-import net.minecraftforge.registries.ForgeRegistry;
-import net.minecraftforge.registries.RegistryManager;
+import net.neoforged.registries.ForgeRegistry;
+import net.neoforged.registries.RegistryManager;
 
 public class WeaponOilSubtypeInterpreter implements IIngredientSubtypeInterpreter<ItemStack>
 {

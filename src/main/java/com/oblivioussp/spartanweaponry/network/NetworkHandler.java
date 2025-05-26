@@ -4,10 +4,10 @@ import com.oblivioussp.spartanweaponry.ModSpartanWeaponry;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerPlayer;
-import net.minecraftforge.common.util.FakePlayer;
-import net.minecraftforge.network.NetworkDirection;
-import net.minecraftforge.network.NetworkRegistry;
-import net.minecraftforge.network.simple.SimpleChannel;
+import net.neoforged.common.util.FakePlayer;
+import net.neoforged.network.NetworkDirection;
+import net.neoforged.network.NetworkRegistry;
+import net.neoforged.network.simple.SimpleChannel;
 
 public class NetworkHandler 
 {

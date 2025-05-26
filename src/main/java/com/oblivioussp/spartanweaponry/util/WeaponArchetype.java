@@ -21,12 +21,12 @@ import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.ItemStack;
-import net.minecraftforge.common.ToolAction;
-import net.minecraftforge.common.ToolActions;
-import net.minecraftforge.registries.ForgeRegistry;
-import net.minecraftforge.registries.RegistryManager;
-import net.minecraftforge.registries.tags.ITag;
-import net.minecraftforge.registries.tags.ITagManager;
+import net.neoforged.common.ToolAction;
+import net.neoforged.common.ToolActions;
+import net.neoforged.registries.ForgeRegistry;
+import net.neoforged.registries.RegistryManager;
+import net.neoforged.registries.tags.ITag;
+import net.neoforged.registries.tags.ITagManager;
 
 /**
  * This class contains all the data that are constant for every weapon of a certain type (e.g. Dagger, Longsword, etc.)

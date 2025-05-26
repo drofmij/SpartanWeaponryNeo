@@ -2,8 +2,8 @@ package com.oblivioussp.spartanweaponry.item;
 
 import com.oblivioussp.spartanweaponry.client.gui.ICrosshairOverlay;
 
-import net.minecraftforge.api.distmarker.Dist;
-import net.minecraftforge.api.distmarker.OnlyIn;
+import net.neoforged.api.distmarker.Dist;
+import net.neoforged.api.distmarker.OnlyIn;
 
 public interface IHudCrosshair 
 {

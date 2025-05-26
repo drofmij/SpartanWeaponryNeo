@@ -13,8 +13,8 @@ import com.mojang.brigadier.suggestion.SuggestionsBuilder;
 import com.oblivioussp.spartanweaponry.api.OilEffects;
 import com.oblivioussp.spartanweaponry.api.oil.OilEffect;
 
-import net.minecraftforge.registries.IForgeRegistry;
-import net.minecraftforge.registries.RegistryManager;
+import net.neoforged.registries.IForgeRegistry;
+import net.neoforged.registries.RegistryManager;
 
 public class OilArgument implements ArgumentType<OilInput> 
 {

@@ -25,10 +25,10 @@ import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.alchemy.Potion;
 import net.minecraft.world.item.alchemy.Potions;
 import net.minecraft.world.level.Level;
-import net.minecraftforge.common.util.LazyOptional;
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.registries.ForgeRegistry;
-import net.minecraftforge.registries.RegistryManager;
+import net.neoforged.common.util.LazyOptional;
+import net.neoforged.registries.ForgeRegistries;
+import net.neoforged.registries.ForgeRegistry;
+import net.neoforged.registries.RegistryManager;
 
 public class WeaponOilItem extends BasicItem 
 {

@@ -25,7 +25,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.inventory.Slot;
 import net.minecraft.world.item.ItemStack;
-import net.minecraftforge.common.util.LazyOptional;
+import net.neoforged.common.util.LazyOptional;
 
 public class QuiverBaseScreen<T extends QuiverBaseMenu> extends AbstractContainerScreen<T> 
 {

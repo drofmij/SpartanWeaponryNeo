@@ -2,7 +2,7 @@ package com.oblivioussp.spartanweaponry.api;
 
 import com.oblivioussp.spartanweaponry.ModSpartanWeaponry;
 
-import net.minecraftforge.common.ToolAction;
+import net.neoforged.common.ToolAction;
 
 public class ModToolActions 
 {

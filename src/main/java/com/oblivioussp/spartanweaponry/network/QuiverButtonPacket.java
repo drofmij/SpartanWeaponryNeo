@@ -7,7 +7,7 @@ import com.oblivioussp.spartanweaponry.item.QuiverBaseItem;
 
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.world.inventory.AbstractContainerMenu;
-import net.minecraftforge.network.NetworkEvent;
+import net.neoforged.network.NetworkEvent;
 
 public class QuiverButtonPacket 
 {

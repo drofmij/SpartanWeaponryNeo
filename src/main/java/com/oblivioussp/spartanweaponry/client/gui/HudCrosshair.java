@@ -22,8 +22,8 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.phys.EntityHitResult;
 import net.minecraft.world.phys.HitResult;
-import net.minecraftforge.client.gui.overlay.ForgeGui;
-import net.minecraftforge.fml.ModList;
+import net.neoforged.client.gui.overlay.ForgeGui;
+import net.neoforged.fml.ModList;
 
 public class HudCrosshair
 {

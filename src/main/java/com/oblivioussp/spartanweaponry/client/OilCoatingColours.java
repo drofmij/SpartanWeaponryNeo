@@ -9,11 +9,11 @@ import com.oblivioussp.spartanweaponry.init.ModCapabilities;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.color.item.ItemColor;
 import net.minecraft.world.item.Item;
-import net.minecraftforge.api.distmarker.Dist;
-import net.minecraftforge.common.util.LazyOptional;
-import net.minecraftforge.fml.loading.FMLEnvironment;
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.registries.tags.ITag;
+import net.neoforged.api.distmarker.Dist;
+import net.neoforged.common.util.LazyOptional;
+import net.neoforged.fml.loading.FMLEnvironment;
+import net.neoforged.registries.ForgeRegistries;
+import net.neoforged.registries.tags.ITag;
 
 public class OilCoatingColours implements IReloadable
 {

@@ -10,8 +10,8 @@ import com.oblivioussp.spartanweaponry.api.trait.WeaponTrait;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.IntrinsicHolderTagsProvider;
-import net.minecraftforge.common.data.ExistingFileHelper;
-import net.minecraftforge.registries.RegistryManager;
+import net.neoforged.common.data.ExistingFileHelper;
+import net.neoforged.registries.RegistryManager;
 
 public class ModWeaponTraitTagsProvider extends IntrinsicHolderTagsProvider<WeaponTrait> 
 {

@@ -21,7 +21,7 @@ import net.minecraft.client.renderer.block.model.ItemModelGenerator;
 import net.minecraft.client.renderer.texture.SpriteContents;
 import net.minecraft.client.renderer.texture.TextureAtlasSprite;
 import net.minecraft.client.resources.model.Material;
-import net.minecraftforge.client.model.ItemLayerModel;
+import net.neoforged.client.model.ItemLayerModel;
 
 /**
  * The entire purpose for this Mixin is to fix a bug in how Forge loads its custom loaded models which causes any non-standard named textures to be filtered out.<br>

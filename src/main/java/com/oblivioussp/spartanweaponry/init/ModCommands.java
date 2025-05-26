@@ -25,7 +25,7 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.alchemy.Potion;
-import net.minecraftforge.event.RegisterCommandsEvent;
+import net.neoforged.event.RegisterCommandsEvent;
 
 public class ModCommands
 {

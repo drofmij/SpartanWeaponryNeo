@@ -14,7 +14,7 @@ import net.minecraft.world.level.storage.loot.LootContext.EntityTarget;
 import net.minecraft.world.level.storage.loot.predicates.LootItemCondition;
 import net.minecraft.world.level.storage.loot.predicates.LootItemEntityPropertyCondition;
 import net.minecraft.world.level.storage.loot.predicates.LootItemKilledByPlayerCondition;
-import net.minecraftforge.common.data.GlobalLootModifierProvider;
+import net.neoforged.common.data.GlobalLootModifierProvider;
 
 public class ModGlobalLootModifierProvider extends GlobalLootModifierProvider
 {

@@ -26,10 +26,10 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.Tiers;
 import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraftforge.registries.IForgeRegistry;
-import net.minecraftforge.registries.RegistryManager;
-import net.minecraftforge.registries.tags.ITag;
-import net.minecraftforge.registries.tags.ITagManager;
+import net.neoforged.registries.IForgeRegistry;
+import net.neoforged.registries.RegistryManager;
+import net.neoforged.registries.tags.ITag;
+import net.neoforged.registries.tags.ITagManager;
 
 @SuppressWarnings("deprecation")
 public class WeaponMaterial implements Tier, IReloadable

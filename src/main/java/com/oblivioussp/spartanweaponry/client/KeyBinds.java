@@ -6,12 +6,12 @@ import com.mojang.blaze3d.platform.InputConstants.Type;
 import com.oblivioussp.spartanweaponry.ModSpartanWeaponry;
 
 import net.minecraft.client.KeyMapping;
-import net.minecraftforge.api.distmarker.Dist;
-import net.minecraftforge.client.event.RegisterKeyMappingsEvent;
-import net.minecraftforge.client.settings.KeyConflictContext;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
-import net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus;
+import net.neoforged.api.distmarker.Dist;
+import net.neoforged.client.event.RegisterKeyMappingsEvent;
+import net.neoforged.client.settings.KeyConflictContext;
+import net.neoforged.eventbus.api.SubscribeEvent;
+import net.neoforged.fml.common.Mod.EventBusSubscriber;
+import net.neoforged.fml.common.Mod.EventBusSubscriber.Bus;
 
 @EventBusSubscriber(value = Dist.CLIENT, bus = Bus.MOD)
 public class KeyBinds

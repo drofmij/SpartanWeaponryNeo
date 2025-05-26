@@ -2,11 +2,11 @@ package com.oblivioussp.spartanweaponry.init;
 
 import com.oblivioussp.spartanweaponry.client.model.OilCoatedItemModel;
 
-import net.minecraftforge.api.distmarker.Dist;
-import net.minecraftforge.client.event.ModelEvent;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
-import net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus;
+import net.neoforged.api.distmarker.Dist;
+import net.neoforged.client.event.ModelEvent;
+import net.neoforged.eventbus.api.SubscribeEvent;
+import net.neoforged.fml.common.Mod.EventBusSubscriber;
+import net.neoforged.fml.common.Mod.EventBusSubscriber.Bus;
 
 @EventBusSubscriber(bus = Bus.MOD, value = Dist.CLIENT)
 public class ModModelLoaders
@@ -22,10 +22,10 @@ public class ModModelLoaders
 import com.oblivioussp.spartanweaponry.client.model.OilCoatedItemModel;
 
 import net.minecraft.resources.ResourceLocation;
-import net.minecraftforge.client.event.ModelRegistryEvent;
-import net.minecraftforge.client.model.ModelLoaderRegistry;
-import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.neoforged.client.event.ModelRegistryEvent;
+import net.neoforged.client.model.ModelLoaderRegistry;
+import net.neoforged.eventbus.api.IEventBus;
+import net.neoforged.fml.javafmlmod.FMLJavaModLoadingContext;
 
 public class ModModelLoaders 
 {

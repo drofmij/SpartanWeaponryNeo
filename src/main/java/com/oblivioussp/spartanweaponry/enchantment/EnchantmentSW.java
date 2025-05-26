@@ -8,7 +8,7 @@ import com.oblivioussp.spartanweaponry.item.ThrowingWeaponItem;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.item.enchantment.EnchantmentCategory;
-import net.minecraftforge.registries.ForgeRegistries;
+import net.neoforged.registries.ForgeRegistries;
 
 public class EnchantmentSW extends Enchantment 
 {
