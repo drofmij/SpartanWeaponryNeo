@@ -26,7 +26,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.CookingBookCategory;
 import net.minecraft.world.item.crafting.RecipeSerializer;
-import net.minecraftforge.registries.ForgeRegistries;
+import net.neoforged.registries.ForgeRegistries;
 
 /**
  * Mostly a copy of {@linkplain SimpleCookingRecipeBuilder} changed to accomodate tag results

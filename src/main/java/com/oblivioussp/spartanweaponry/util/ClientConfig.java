@@ -5,11 +5,11 @@ import org.apache.commons.lang3.tuple.Pair;
 import com.oblivioussp.spartanweaponry.ModSpartanWeaponry;
 import com.oblivioussp.spartanweaponry.client.gui.AlignmentHelper.Alignment;
 
-import net.minecraftforge.common.ForgeConfigSpec;
-import net.minecraftforge.common.ForgeConfigSpec.BooleanValue;
-import net.minecraftforge.common.ForgeConfigSpec.EnumValue;
-import net.minecraftforge.common.ForgeConfigSpec.IntValue;
-import net.minecraftforge.fml.common.Mod;
+import net.neoforged.common.ForgeConfigSpec;
+import net.neoforged.common.ForgeConfigSpec.BooleanValue;
+import net.neoforged.common.ForgeConfigSpec.EnumValue;
+import net.neoforged.common.ForgeConfigSpec.IntValue;
+import net.neoforged.fml.common.Mod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class ClientConfig 

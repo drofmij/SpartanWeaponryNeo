@@ -11,7 +11,7 @@ import com.oblivioussp.spartanweaponry.util.OilHelper;
 
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraftforge.common.brewing.IBrewingRecipe;
+import net.neoforged.common.brewing.IBrewingRecipe;
 
 public class OilBrewingRecipe implements IBrewingRecipe 
 {

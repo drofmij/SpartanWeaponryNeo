@@ -5,7 +5,7 @@ import com.oblivioussp.spartanweaponry.api.tags.ModItemTags;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.ItemStack;
-import net.minecraftforge.event.AttachCapabilitiesEvent;
+import net.neoforged.event.AttachCapabilitiesEvent;
 
 public class OilItemCapabilityHandler
 {

@@ -27,10 +27,10 @@ import net.minecraft.world.item.alchemy.PotionUtils;
 import net.minecraft.world.item.alchemy.Potions;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.phys.Vec3;
-import net.minecraftforge.entity.IEntityAdditionalSpawnData;
-import net.minecraftforge.network.NetworkHooks;
-import net.minecraftforge.network.PlayMessages.SpawnEntity;
-import net.minecraftforge.registries.ForgeRegistries;
+import net.neoforged.entity.IEntityAdditionalSpawnData;
+import net.neoforged.network.NetworkHooks;
+import net.neoforged.network.PlayMessages.SpawnEntity;
+import net.neoforged.registries.ForgeRegistries;
 
 public class ArrowBaseEntity extends AbstractArrow implements IEntityAdditionalSpawnData
 {

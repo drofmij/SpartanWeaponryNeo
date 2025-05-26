@@ -9,7 +9,7 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.level.GameRules;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.Level.ExplosionInteraction;
-import net.minecraftforge.network.PlayMessages.SpawnEntity;
+import net.neoforged.network.PlayMessages.SpawnEntity;
 
 public class ArrowExplosiveEntity extends ArrowEntitySW 
 {

@@ -3,9 +3,9 @@ package com.oblivioussp.spartanweaponry.api.data.model;
 import com.oblivioussp.spartanweaponry.ModSpartanWeaponry;
 
 import net.minecraft.resources.ResourceLocation;
-import net.minecraftforge.client.model.generators.CustomLoaderBuilder;
-import net.minecraftforge.client.model.generators.ModelBuilder;
-import net.minecraftforge.common.data.ExistingFileHelper;
+import net.neoforged.client.model.generators.CustomLoaderBuilder;
+import net.neoforged.client.model.generators.ModelBuilder;
+import net.neoforged.common.data.ExistingFileHelper;
 
 public class OilCoatingItemModelBuilder<T extends ModelBuilder<T>> extends CustomLoaderBuilder<T> 
 {

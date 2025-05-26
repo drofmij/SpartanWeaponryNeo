@@ -26,7 +26,7 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.AABB;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.phys.Vec3;
-import net.minecraftforge.network.PlayMessages.SpawnEntity;
+import net.neoforged.network.PlayMessages.SpawnEntity;
 
 public class BoomerangEntity extends ThrowingWeaponEntity 
 {

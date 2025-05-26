@@ -18,7 +18,7 @@ import net.minecraft.world.item.crafting.CraftingBookCategory;
 import net.minecraft.world.item.crafting.CustomRecipe;
 import net.minecraft.world.item.crafting.RecipeSerializer;
 import net.minecraft.world.level.Level;
-import net.minecraftforge.common.util.LazyOptional;
+import net.neoforged.common.util.LazyOptional;
 
 public class ApplyOilRecipe extends CustomRecipe
 {

@@ -4,10 +4,10 @@ import com.oblivioussp.spartanweaponry.capability.IOilHandler;
 import com.oblivioussp.spartanweaponry.capability.IQuiverItemHandler;
 import com.oblivioussp.spartanweaponry.util.Log;
 
-import net.minecraftforge.common.capabilities.Capability;
-import net.minecraftforge.common.capabilities.CapabilityManager;
-import net.minecraftforge.common.capabilities.CapabilityToken;
-import net.minecraftforge.common.capabilities.RegisterCapabilitiesEvent;
+import net.neoforged.common.capabilities.Capability;
+import net.neoforged.common.capabilities.CapabilityManager;
+import net.neoforged.common.capabilities.CapabilityToken;
+import net.neoforged.common.capabilities.RegisterCapabilitiesEvent;
 
 public class ModCapabilities
 {

@@ -13,7 +13,7 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
-import net.minecraftforge.network.PlayMessages.SpawnEntity;
+import net.neoforged.network.PlayMessages.SpawnEntity;
 
 public class BoltSpectralEntity extends BoltEntity 
 {

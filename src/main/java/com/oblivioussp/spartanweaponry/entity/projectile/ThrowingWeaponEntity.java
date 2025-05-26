@@ -49,9 +49,9 @@ import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.phys.EntityHitResult;
 import net.minecraft.world.phys.HitResult.Type;
 import net.minecraft.world.phys.Vec3;
-import net.minecraftforge.entity.IEntityAdditionalSpawnData;
-import net.minecraftforge.network.NetworkHooks;
-import net.minecraftforge.network.PlayMessages.SpawnEntity;
+import net.neoforged.entity.IEntityAdditionalSpawnData;
+import net.neoforged.network.NetworkHooks;
+import net.neoforged.network.PlayMessages.SpawnEntity;
 
 public class ThrowingWeaponEntity extends AbstractArrow implements IEntityAdditionalSpawnData
 {

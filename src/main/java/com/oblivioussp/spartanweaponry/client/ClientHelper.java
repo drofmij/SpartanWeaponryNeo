@@ -60,17 +60,17 @@ import net.minecraft.client.renderer.item.ItemProperties;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.alchemy.PotionUtils;
-import net.minecraftforge.api.distmarker.Dist;
-import net.minecraftforge.client.event.EntityRenderersEvent;
-import net.minecraftforge.client.event.RegisterClientReloadListenersEvent;
-import net.minecraftforge.client.event.RegisterClientTooltipComponentFactoriesEvent;
-import net.minecraftforge.client.event.RegisterColorHandlersEvent;
-import net.minecraftforge.client.event.RegisterGuiOverlaysEvent;
-import net.minecraftforge.client.gui.overlay.IGuiOverlay;
-import net.minecraftforge.client.gui.overlay.VanillaGuiOverlay;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.ModList;
-import net.minecraftforge.fml.common.Mod;
+import net.neoforged.api.distmarker.Dist;
+import net.neoforged.client.event.EntityRenderersEvent;
+import net.neoforged.client.event.RegisterClientReloadListenersEvent;
+import net.neoforged.client.event.RegisterClientTooltipComponentFactoriesEvent;
+import net.neoforged.client.event.RegisterColorHandlersEvent;
+import net.neoforged.client.event.RegisterGuiOverlaysEvent;
+import net.neoforged.client.gui.overlay.IGuiOverlay;
+import net.neoforged.client.gui.overlay.VanillaGuiOverlay;
+import net.neoforged.eventbus.api.SubscribeEvent;
+import net.neoforged.fml.ModList;
+import net.neoforged.fml.common.Mod;
 import top.theillusivec4.curios.api.CuriosApi;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)

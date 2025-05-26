@@ -9,8 +9,8 @@ import com.oblivioussp.spartanweaponry.api.SpartanWeaponryAPI;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.util.GsonHelper;
-import net.minecraftforge.common.crafting.conditions.ICondition;
-import net.minecraftforge.common.crafting.conditions.IConditionSerializer;
+import net.neoforged.common.crafting.conditions.ICondition;
+import net.neoforged.common.crafting.conditions.IConditionSerializer;
 
 public class TypeDisabledCondition implements ICondition 
 {

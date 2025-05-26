@@ -16,8 +16,8 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.crafting.CookingBookCategory;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.RecipeSerializer;
-import net.minecraftforge.common.crafting.conditions.ICondition.IContext;
-import net.minecraftforge.registries.ForgeRegistries;
+import net.neoforged.common.crafting.conditions.ICondition.IContext;
+import net.neoforged.registries.ForgeRegistries;
 
 public class TagCookingRecipeSerializer<T extends ITagCookingRecipe> implements RecipeSerializer<T> 
 {

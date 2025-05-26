@@ -2,7 +2,7 @@ package com.oblivioussp.spartanweaponry.capability;
 
 import net.minecraft.core.NonNullList;
 import net.minecraft.world.item.ItemStack;
-import net.minecraftforge.items.ItemStackHandler;
+import net.neoforged.items.ItemStackHandler;
 
 public class QuiverItemStackHandler extends ItemStackHandler implements IQuiverItemHandler
 {
